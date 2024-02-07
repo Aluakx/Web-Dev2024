@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.facebook-logo {
+    text-align: left;
+    margin-right:50px;/* Adjust the margin as needed */
+}
+
+.facebook-logo img {
+    width: 300px; /* Adjust the width as needed */
+}
+.facebook-logo p{
+    margin-left: 14px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.login-frame {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Add margin-left to move it to the right */
+    width: 350px; /* Set the desired width */
+}
+
+.login-frame input {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    width: 100%; /* Make them take up the full width */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    font-size: 18px; /* Set the font size */
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.login-frame button {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Make them take up the full width */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    font-size: 18px; /* Set the font size */
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+.login-frame button:hover {
+    background-color: #145eaa;
+}
+.login-frame a {
+    color: #166fe5;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 18px; /* Set the font size */
+    display: inline-block;
+}
+
+.login-frame a:hover {
+    border-bottom: 1px solid #166fe5; /* Adding underline on hover */
+    text-decoration: none; /* Removing the default underline on hover */
+}
+.login-frame .separator {
+    border: 1px solid #888; /* Gray color for the line */
+    margin: 10px; /* Adjust the margin for spacing */
+    width: 100%; /* Set the width to make the line longer */
+    border: 1px solid #888; /* Gray color for the thin line */
+    margin-bottom: 20px; /* Adjust the margin for spacing */
+}
+.login-frame .new-button {
+    background-color: #36a420; /* Green color for the button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Make them take up the full width */
+    box-sizing: border-box;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    font-size: 18px; /* Set the font size */
+    transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.login-frame .new-button:hover {
+    background-color: #42b72a; /* Darker green on hover */
+}
+
+/*.create-page{
+    text-align:left;
+    margin-top:550px;
+}
+
+.create-page p {
+    font-size: 14px;
+    margin-right: auto;
+    text-align:left;
+}
+
+.create-page a.page-link {
+    color: #166fe5;
+    text-decoration: none;
+    margin-right: auto;
+    text-align:left;
+}
+
+.create-page a.page-link:hover {
+    text-decoration: underline;
+
+}
+*/
+.create-page {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.create-page p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.create-page a.page-link {
+    color: #166fe5;
+    text-decoration: none;
+    text-align: centert;
+}
+
+.create-page a.page-link:hover {
+    text-decoration: underline;
+}
