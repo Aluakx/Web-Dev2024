@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to 100% of the viewport height */
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Set width to 80% of the viewport width */
+    max-width: 600px; /* Increased max-width for a wider container */
+    height: 80vh; /* Set height to 80% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: right; /* Align the text to the right */
+}
+
+.new-task-container {
+    margin-bottom: 20px; /* Increased margin-bottom for better spacing */
+    text-align: right; /* Align the "New Task" window to the right */
+}
+
+#new-item {
+    margin-right: 8px; /* Add margin to the right of the input for spacing */
+}
+
+#todo-container {
+    margin-top: 20px;
+    flex-grow: 1;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.todo-item input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button img {
+    width: 20px;
+}
+
+.delete-button:hover img {
+    filter: brightness(80%);
+}
